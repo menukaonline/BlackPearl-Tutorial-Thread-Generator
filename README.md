@@ -22,5 +22,5 @@ pip3 install -r requirements.txt
 
 <h2><details>
 <summary>Preview</summary>
-![Screenshot](https://i.ibb.co/ygKr9gG/Screenshot-1041.png)
+![Screenshot]()
 </details>
