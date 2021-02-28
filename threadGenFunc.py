@@ -112,9 +112,11 @@ def uploadCourseImage(courseImagePath):
 
 def clipIt(givenStr):
     pyperclip.copy(givenStr)
-    print('BBCode has been copied to the clipboard!')
-    print('Go paste it wherever you want:)')
-
+    print('╔══╦'+'═' * 43 +'╗')
+    print('╠══╣ BBCode has been copied to the clipboard!'+' '*2+'║')
+    print('╠══╣ Go paste it wherever you want:)'+' '*11+'║')
+    print('╚══╩'+'═' * 43 +'╝')
+    print()
 
 def startWait():
     t = threading.Thread(target=animate)
@@ -173,8 +175,8 @@ def jupyterBool(TorF):
     else:
         print('\033[H\033[J', end='')
         welcomeText()
+        print('[Currently this tool only works with UDEMY URLs]')
         while True:
-            print('[Currently this tool only works with UDEMY URLs]')
             inpCourseURL = input('Enter Course URL : ')
             if isWebsite(inpCourseURL):
                 if isUdemy(inpCourseURL):
@@ -234,7 +236,7 @@ def welcomeText():
      | |_) | | (_| | (__|   <|  __/  __/ (_| | |  | |
      |____/|_|\__,_|\___|_|\_\_|   \___|\__,_|_|  |_|
      ---- THREAD GENERATOR FOR TUTORIALS SECTION ----
-     ---------------- CREATED BY DUDU ---------------'''.split('\n')
+     --------------- CREATED BY DUDU ----------------'''.split('\n')
     print('\n'*(int(lines/2)-6))
     for i in range(len(welcomeTextList[1:])):
         print(welcomeTextList[1:][i].center(columns-5))
