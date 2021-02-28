@@ -145,7 +145,7 @@ def clearOutput():
         os.system('clear')
 
 
-def makeGlobal(var1,var2):
+def makeGlobal(var1, var2):
     global jupyterCourseURL, jupyterDownloadLink
     jupyterCourseURL = var1
     jupyterDownloadLink = var2
