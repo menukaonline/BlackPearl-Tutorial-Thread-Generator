@@ -234,7 +234,7 @@ def welcomeText():
      | |_) | | (_| | (__|   <|  __/  __/ (_| | |  | |
      |____/|_|\__,_|\___|_|\_\_|   \___|\__,_|_|  |_|
      ---- THREAD GENERATOR FOR TUTORIALS SECTION ----
-     -------------- CREATED BY IAMDUDU --------------'''.split('\n')
+     ---------------- CREATED BY DUDU ---------------'''.split('\n')
     print('\n'*(int(lines/2)-6))
     for i in range(len(welcomeTextList[1:])):
         print(welcomeTextList[1:][i].center(columns-5))
