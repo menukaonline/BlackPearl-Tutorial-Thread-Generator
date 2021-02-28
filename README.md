@@ -17,8 +17,9 @@ pip3 install -r requirements.txt
 ## Usage
 
 ### Python Script
-
-`python3 bp-threadgen.py`
+```
+python3 bp-threadgen.py
+```
 
 <h2><details>
 <summary>Generated Thread Example</summary>
