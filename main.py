@@ -1,7 +1,7 @@
 import threadGenFunc
 
-# courseURL = 'https://www.udemy.com/course/learn-javascript-online/'
-# downloadURL = 'https://drive.google.com/file/d/1o7ngqzGJyW8LrQoqcazC3VjKu0b_o02Z/view?usp=sharing'
+# courseURL = ''
+# downloadURL = ''
 threadGenFunc.jupyterBool(False)
 # threadGenFunc.makeGlobal(courseURL, downloadURL)
 threadGenFunc.startWait()
