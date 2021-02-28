@@ -22,5 +22,7 @@ pip3 install -r requirements.txt
 
 <h2><details>
 <summary>Preview</summary>
-![Screenshot]()
-</details>
+
+![Screenshot](https://raw.githubusercontent.com/cheems/BlackPearl-Tutorial-Thread-Generator/master/src/Screenshot.jpg)
+
+</details></h2>
