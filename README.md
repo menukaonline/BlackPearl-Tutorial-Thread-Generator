@@ -1,7 +1,7 @@
 # BlackPearl-Tutorial-Thread-Generator
  A Thread Generator for BlackPearl Tutorials Section. (Currently only works with UDEMY URLs)
 
-## Colab Notebook
+## Quick Method: Colab Notebook
 - Click on the "Open in Colab" button (and press ctrl+f9 to connect).
 <br><a href="https://colab.research.google.com/github/cheems/GDIndex/blob/master/template/GDIndex_Code_Generator_with_rclone_credentials.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   
