@@ -165,13 +165,12 @@ def jupyterBool(TorF):
         else:
             print('[Error] [Enter valid URL]')
             exit()
-        inpDownloadLink = inpDownloadLink
-        if isWebsite(inpCourseURL):
+        inpDownloadLink = jupyterDownloadLink
+        if isWebsite(inpDownloadLink):
             pass
         else:
             print('[Error] [Enter valid URL]')
             exit()
-
     else:
         welcomeText()
         while True:
