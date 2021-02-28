@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 `python3 bp-threadgen.py`
 
 <h2><details>
-<summary>Preview</summary>
+<summary>Generated Thread Example</summary>
 
 ![Screenshot](https://raw.githubusercontent.com/cheems/BlackPearl-Tutorial-Thread-Generator/master/src/Screenshot.jpg)
 
