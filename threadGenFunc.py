@@ -151,7 +151,6 @@ def makeGlobal(var1, var2):
     jupyterDownloadLink = var2
 
 def jupyterBool(TorF):
-    print('\033[H\033[J', end='')
     global jupyter, inpCourseURL, inpDownloadLink
     jupyter = TorF
     if jupyter:
@@ -172,6 +171,7 @@ def jupyterBool(TorF):
             print('[Error] [Enter valid URL]')
             exit()
     else:
+        print('\033[H\033[J', end='')
         welcomeText()
         while True:
             print('[Currently this tool only works with UDEMY URLs]')
