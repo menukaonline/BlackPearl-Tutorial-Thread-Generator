@@ -165,6 +165,12 @@ def jupyterBool(TorF):
         else:
             print('[Error] [Enter valid URL]')
             exit()
+        inpDownloadLink = inpDownloadLink
+        if isWebsite(inpCourseURL):
+            pass
+        else:
+            print('[Error] [Enter valid URL]')
+            exit()
 
     else:
         welcomeText()
