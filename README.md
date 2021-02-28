@@ -3,7 +3,7 @@
 
 ## Quick Method: Colab Notebook
 - Click on the "Open in Colab" button (and press ctrl+f9 to connect).
-<br><a href="https://colab.research.google.com/github/cheems/GDIndex/blob/master/template/GDIndex_Code_Generator_with_rclone_credentials.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<br><a href="https://colab.research.google.com/github/cheems/BlackPearl-Tutorial-Thread-Generator/blob/master/BlackPearl_Tutorial_Thread_Generator.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   
 
 ## Installation
