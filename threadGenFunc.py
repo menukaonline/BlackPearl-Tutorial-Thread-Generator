@@ -10,7 +10,7 @@ def parsePage(URL):
 
 
 def replaceTags(element):
-    replacements = {'<strong>': '[B]', '</strong>': '[/B]', '<ul>': '[/SIZE][LIST]\n', '</ul>': '[/LIST]\n\n[SIZE=15px]', '<ol><li>': '[/SIZE][LIST=1]\n[*]', '</li></ol>': '\n[/LIST]\n\n[SIZE=15px]', '</li><li>': '[SIZE=15px]\n[*]', '<li><p>': '[*][SIZE=15px]', '</p></li>': '[/SIZE]\n', '<br/></p>': '\n\n', '<p>': '', '</p>': '\n\n'}
+    replacements = {'<strong>': '[B]', '</strong>': '[/B]', '<ul>': '[/SIZE][LIST]\n', '</ul>': '[/LIST]\n\n[SIZE=15px]', '<ol><li>': '[/SIZE][LIST=1]\n[*]', '</li></ol>': '\n[/LIST]\n\n[SIZE=15px]', '</li><li>': '[/SIZE]\n[*]', '<li><p>': '[*][SIZE=15px]', '</p></li>': '[/SIZE]\n', '<br/></p>': '\n\n', '<p>': '', '</p>': '\n\n'}
     if type(element) == str:
         for i, j in replacements.items():
             element = element.replace(i, j)
