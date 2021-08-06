@@ -28,7 +28,7 @@ def getHeader(bsPage):
     findRating = '('+bsPage.find("div", {"class": "styles--rating-wrapper--5a0Tr"}).text.strip().split(' (')[1]
     findEnrolledStudents = bsPage.find("div", {"data-purpose": "enrollment"}).text.strip()
     findAuthor = bsPage.find("a", {"class": "udlite-btn udlite-btn-large udlite-btn-link udlite-heading-md udlite-text-sm udlite-instructor-links"}).text.strip()
-    findAuthorURL = 'https://www.udemy.com'+bsPage.find("div", {"class": "udlite-heading-lg instructor--instructor__title--34ItB"}).a['href']
+    findAuthorURL = 'https://www.udemy.com'+bsPage.find("div", {"class": "udlite-heading-lg udlite-link-underline instructor--instructor__title--34ItB"}).a['href']
     HeaderStr = '[COLOR=rgb(250, 197, 28)][FONT=Arial][SIZE=26px][B][U]' + findLeadTitle + '[/U][/B][/SIZE][/FONT][/COLOR]\n'\
                 '[COLOR=rgb(204, 204, 204)][SIZE=15px]'+findLeadHeadline+'[/SIZE][/COLOR]\n'\
                 '[COLOR=rgb(250, 197, 28)][SIZE=15px]' + findStars + ' ' + '★'*round(float(findStars)) + '☆'*(5-round(float(findStars))) + '[/SIZE][/COLOR][SIZE=15px]  |  ' + findRating + '[/SIZE]' \
