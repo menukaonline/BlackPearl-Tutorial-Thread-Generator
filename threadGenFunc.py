@@ -95,7 +95,7 @@ def getDownloadURL(downloadURL):
 
 def getCourseImage(bsPage):
     findImage = bsPage.find("span", {"class": "intro-asset--img-aspect--1UbeZ"})
-    courseImageURL = findImage.img['srcset'].split(', ')[1].split('.jpg?')[0] + '.jpg'
+    courseImageURL = findImage.img['srcset'].split(', ')[1].split('.jpg 2')[0] + '.jpg'
     urllib.request.urlretrieve(courseImageURL, "course-image.jpg")
     uploadedImageURL = uploadCourseImage('course-image.jpg')
     if os.path.exists('course-image.jpg'):
