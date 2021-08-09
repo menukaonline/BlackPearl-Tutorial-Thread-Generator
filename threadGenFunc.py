@@ -24,7 +24,7 @@ def replaceTags(element):
 def getHeader(bsPage):
     findLeadTitle = bsPage.find("h1", {"class": "udlite-heading-xl clp-lead__title clp-lead__title--small"}).text.strip()
     findLeadHeadline = bsPage.find("div", {"class": "udlite-text-md clp-lead__headline"}).text.strip()
-    findStars = bsPage.find("span", {"class": "udlite-heading-sm star-rating--rating-number--3lVe8"}).text.strip()
+    findStars = bsPage.find("span", {"class": "udlite-heading-sm star-rating--rating-number--2o8YM"}).text.strip()
     findRating = '('+bsPage.find("div", {"class": "styles--rating-wrapper--5a0Tr"}).text.strip().split(' (')[1]
     findEnrolledStudents = bsPage.find("div", {"data-purpose": "enrollment"}).text.strip()
     findAuthor = bsPage.find("a", {"class": "udlite-btn udlite-btn-large udlite-btn-link udlite-heading-md udlite-text-sm udlite-instructor-links"}).text.strip()
